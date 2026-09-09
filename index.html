@@ -1,5 +1,5 @@
 Exit code: 0
-Wall time: 1.5 seconds
+Wall time: 4.4 seconds
 Output:
 <!doctype html>
 <html lang="it">
@@ -109,8 +109,8 @@ Output:
             <div class="prize"><span>4°</span><p>Campionato</p><strong>€ 100</strong></div>
             <div class="prize"><span>PT</span><p>Classifica punti</p><strong>€ 100</strong></div>
             <div class="prize"><span>CI</span><p>Coppa Italia</p><strong>€ 50</strong></div>
-            <div class="prize"><span>CL</span><p>Champions League</p><strong>€ 100</strong></div>
-            <div class="prize"><span>EL</span><p>Europa League</p><strong>€ 50</strong></div>
+            <div class="prize"><span>CL</span><p>Champions League</p><strong>€ 75</strong></div>
+            <div class="prize"><span>EL</span><p>Europa League</p><strong>€ 75</strong></div>
           </div>
         </article>
 
@@ -141,7 +141,43 @@ Output:
 
         <article id="asta-riparazione">
           <h3><span>2.2</span> Asta di riparazione</h3>
-          <p class="status"><span aria-hidden="true">●</span> Modalità da definire</p>
+          <p class="status"><span aria-hidden="true">●</span> Modalità sperimentale</p>
+          <p>Il mercato di riparazione apre il <strong>1° gennaio</strong> e resta attivo fino alla chiusura del mercato invernale di Serie A.</p>
+          <p>Sull’app viene attivato un mercato con un sistema di aste simile a eBay. Qualsiasi fantallenatore può aprire un’asta per un giocatore, ma soltanto dopo aver svincolato un calciatore dalla propria rosa e averlo comunicato nella chat ufficiale.</p>
+          <ol class="steps">
+            <li><strong>Apertura dell’asta</strong><span>Il fantallenatore comunica nella chat ufficiale il giocatore che intende acquistare, quello che lascia, la quotazione attuale del giocatore svincolato e l’offerta iniziale.</span></li>
+            <li><strong>Durata</strong><span>Se nessuno presenta un rilancio nelle 24 ore successive, il giocatore viene assegnato al fantallenatore che ha aperto l’asta.</span></li>
+            <li><strong>Giocatori acquisiti nella sessione</strong><span>Se viene svincolato un giocatore acquisito durante il mercato di gennaio, la nuova offerta non può partire da 1 credito, ma deve avere come base minima la sua quotazione attuale.</span></li>
+          </ol>
+          <div class="definition-list">
+            <div>
+              <h4>Esempio di offerta ordinaria</h4>
+              <p><strong>KOLO MUANI</strong> — Lascio Pohjanpalo, quotazione attuale 18 crediti, e offro 1 credito. Se nessuno rilancia entro le 24 ore successive, Kolo Muani viene assegnato.</p>
+            </div>
+            <div>
+              <h4>Esempio con giocatore acquisito a gennaio</h4>
+              <p><strong>WALKER</strong> — Lascio Kolo Muani, quotazione attuale 17 crediti, e offro 17 crediti.</p>
+            </div>
+          </div>
+          <aside class="callout">
+            <p class="callout__label">Completamento delle rose</p>
+            <p>Dopo la chiusura del mercato invernale di Serie A, per completare le rose si procede secondo queste fasi:</p>
+            <ol>
+              <li>comunicazione di un turno di svincoli;</li>
+              <li>scelta dei giocatori mediante busta chiusa, senza offerta economica;</li>
+              <li>assegnazione diretta dei giocatori non contesi;</li>
+              <li>asta tramite WhatsApp per i giocatori richiesti da più fantallenatori.</li>
+            </ol>
+            <p>La procedura viene ripetuta, seguendo lo stesso ordine, fino al completamento di tutte le rose.</p>
+          </aside>
+          <aside class="callout callout--warning">
+            <p class="callout__label">Controllo dell’admin</p>
+            <p>L’admin verifica che ogni procedura rispetti il regolamento, compresi la regolarità dello svincolo e il corretto importo della base d’asta quando previsto. In caso contrario, l’operazione viene dichiarata nulla.</p>
+          </aside>
+          <aside class="callout">
+            <p class="callout__label">Norma sperimentale</p>
+            <p>Questa modalità è sperimentale e può essere modificata durante la stagione, previo accordo tra i partecipanti.</p>
+          </aside>
         </article>
 
         <article id="scambi">
