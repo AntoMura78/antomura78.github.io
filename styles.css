@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 4.9 seconds
+Output:
 :root {
   --blue: #173b78;
   --blue-deep: #0b2551;
@@ -98,8 +101,8 @@ strong { color: var(--blue-deep); }
 .steps { margin: 25px 0; padding: 0; list-style: none; counter-reset: steps; }
 .steps li { position: relative; min-height: 66px; margin: 0 0 16px; padding-left: 82px; counter-increment: steps; }
 .steps li::before { content: counter(steps, decimal-leading-zero); position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 58px; height: 58px; color: #fff; background: var(--green); border-radius: 50%; font-weight: 900; }
-.steps strong, .steps span { display: block; }
-.steps span { color: var(--muted); }
+.steps li > strong, .steps li > span { display: block; }
+.steps li > span { color: var(--muted); }
 
 .formula { display: flex; align-items: center; justify-content: space-between; margin: 26px 0; padding: 19px 22px; color: #fff; background: var(--blue-deep); border-radius: var(--radius); }
 .formula strong { color: #fff; font-size: 1.5rem; }
@@ -174,3 +177,4 @@ strong { color: var(--blue-deep); }
   article { break-inside: avoid; }
   .document-figure { box-shadow: none; }
 }
+
